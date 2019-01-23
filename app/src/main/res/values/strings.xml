@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WorkManagerMySample</string>
+    <string name="blur">blur</string>
+    <string name="convolve">convolve</string>
+    <string name="pixelate">pixelate</string>
+    <string name="cancel_work">cancel work</string>
+    <string name="go">go</string>
+    <string name="see_file">see file</string>
 </resources>

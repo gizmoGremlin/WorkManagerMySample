@@ -19,13 +19,13 @@ import static com.example.workmanagermysample.Constants.IMAGE_MANIPULATION_WORK_
 import static com.example.workmanagermysample.Constants.KEY_IMAGE_URI;
 import static com.example.workmanagermysample.Constants.TAG_OUTPUT;
 
-public class convolveViewModel extends ViewModel {
+public class ConvolveViewModel extends ViewModel {
     private WorkManager workManager;
     private Uri imageUri;
     private Uri outputUri;
     private LiveData<List<WorkInfo>> savedWorkInfo;
 
-public convolveViewModel(){
+public ConvolveViewModel(){
     workManager = WorkManager.getInstance();
     savedWorkInfo = workManager.getWorkInfosByTagLiveData(TAG_OUTPUT);
 
